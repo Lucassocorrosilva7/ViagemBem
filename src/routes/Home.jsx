@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import HomeImg from "../assets/images/hero.jpg";
+import Destination from "../components/Destination";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         url="/"
         btnClass="show"
       />
+      <Destination/>
     </>
   );
 };
