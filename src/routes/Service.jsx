@@ -9,7 +9,7 @@ const Service = () => {
       <Hero
         cName="hero-services"
         heroImg={AboutImg}
-        title="Sobre nós"
+        title="Serviços"
         btnClass="hide"
       />
     </>
