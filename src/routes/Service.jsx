@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import AboutImg from "../assets/images/night.jpg"
+import Footer from "../components/Footer";
 
 const Service = () => {
   return (
@@ -12,6 +13,7 @@ const Service = () => {
         title="Serviços"
         btnClass="hide"
       />
+    <Footer/>
     </>
   )
 }
