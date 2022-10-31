@@ -15,7 +15,7 @@
 }
 
 .navbar-logo{
-    color: #222;
+    color: #425F57;
     font-size: 2rem;
     cursor: pointer;
 }
@@ -40,7 +40,7 @@
 }
 
 .nav-links:hover{
-    background: #019591;
+    background: #425F57;
     color: #fff;
     border-radius: 4px;
     transition: background .2 ease-in-out;
@@ -110,7 +110,7 @@ button:hover{
     }
 
     .nav-links:hover{
-        background: #019591;
+        background: #425F57;
         transition: none;
     }
 
@@ -125,7 +125,7 @@ button:hover{
         margin: auto;
         border-radius: 4px;
         width: 80%;
-        background: #019591;
+        background: #425F57;
         text-decoration: none;
         color: #fff;
         font-size: 1.2rem;

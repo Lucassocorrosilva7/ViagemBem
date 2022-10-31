@@ -7,11 +7,11 @@ import Montain4 from "../assets/images/4.jpg";
 const Destination = () => {
   return (
     <div className="destination">
-      <h1>Popular Destination</h1>
-      <p>Tours give you the opportunity to see a lot, within a time frame.</p>
+      <h1>Destinos Populares</h1>
+      <p>Os passeios oferecem a oportunidade de ver muito, dentro de um período de tempo.</p>
       <DestinationData
       className="first-des"
-        heading="Taal Volcano, Batangas"
+        heading="Vulcão Taal, Batangas"
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Temporibus, est. Earum repudiandae recusandae fuga exercitationem
             cupiditate doloremque obcaecati, nihil a vero iusto. Dolorum beatae

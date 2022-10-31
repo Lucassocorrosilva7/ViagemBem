@@ -7,7 +7,7 @@ import Trip3 from "../assets/images/6.jpg";
 const Trip = () => {
   return (
     <div className="trip">
-      <h1>Recent Trips</h1>
+      <h1>Viagens recentes</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed neque
         perspiciatis corrupti.
@@ -15,21 +15,21 @@ const Trip = () => {
       <div className="tripcard">
         <TripData 
         image={Trip1} 
-        heading="Trip in indonesia" 
+        heading="Viagem na Indonésia" 
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, soluta
         dicta eos temporibus accusamus incidunt maiores quas repellendus quidem
         sit nostrum, vel exercitationem veritatis voluptates eaque praesentium
         laudantium rerum vitae." />
         <TripData 
         image={Trip2} 
-        heading="Trip in Malaysia" 
+        heading="Viagem na Malásia" 
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, soluta
         dicta eos temporibus accusamus incidunt maiores quas repellendus quidem
         sit nostrum, vel exercitationem veritatis voluptates eaque praesentium
         laudantium rerum vitae." />
         <TripData 
         image={Trip3} 
-        heading="Trip in Frace" 
+        heading="Viagem na França" 
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, soluta
         dicta eos temporibus accusamus incidunt maiores quas repellendus quidem
         sit nostrum, vel exercitationem veritatis voluptates eaque praesentium
