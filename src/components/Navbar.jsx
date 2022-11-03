@@ -1,21 +1,25 @@
-import { Component } from "react";
+import {  useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavbarStyles.css";
 import { MenuItems } from "../utils/MenuItems";
 
-class Navbar extends Component {
-    state = {clicked: false}
-    handleClick = () => {
-        this.setState({clicked: !this.state.clicked})
-    }
-  render() {
+
+
+const  Navbar = () => {
+  
+  const [click, setClick] = useState(false)
+
+  const handleClick = () =>{
+      setClick(!click)
+  }
+ 
     return (
       <nav className="NavbarItems">
         <h1 className="navbar-logo">ViagemBem</h1>
-        <div className="menu-icons" onClick={this.handleClick}>
-            <i className={this.state.clicked ?  "fas fa-times" : "fas fa-bars"}></i>
+        <div className="menu-icons" onClick={handleClick}>
+            <i className={click ?  "fas fa-times" : "fas fa-bars"}></i>
         </div>
-        <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
           {MenuItems.map((item, index) => {
             return (
               <li  key={index}>
@@ -30,6 +34,6 @@ class Navbar extends Component {
       </nav>
     );
   }
-}
+
 
 export default Navbar;
