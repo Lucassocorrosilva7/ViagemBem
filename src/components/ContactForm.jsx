@@ -1,15 +1,15 @@
 import "./ContactFormStyles.css"
 
-const ContactForm = () => {
+const ContactForm = (props) => {
   return (
     <div className='form-container'>
-        <h1>Envie uma mensagem para nós!</h1>
+        <h1>{props.heading}</h1>
         <form>
-            <input type="text" placeholder='Nome' />
-            <input type="text" placeholder='Sobrenome' />
-            <input type="text" placeholder='Email' />
+            <input type="text" placeholder={props.name} />
+            <input type="text" placeholder={props.lastName} />
+            <input type="text" placeholder={props.email} />
             <textarea type="text" placeholder='Mensagem' rows="4"></textarea>
-            <button>Enviar</button>
+            <button>{props.btn}</button>
         </form>
     </div>
   )

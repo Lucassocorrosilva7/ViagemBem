@@ -13,8 +13,15 @@ const Contact = () => {
         heroImg={AboutImg}
         title="Contato"
         btnClass="hide"
+        
       />
-      <ContactForm/>
+      <ContactForm 
+        heading="Envie uma mensagem para nós!"
+        name="Nome"
+        lastName="Sobrenome"
+        email="E-mail"
+        btn="Enviar"
+      />
       <Footer/>
     </>
   )
