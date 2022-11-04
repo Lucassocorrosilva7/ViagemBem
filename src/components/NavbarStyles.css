@@ -114,7 +114,7 @@ button:hover{
         transition: none;
     }
 
-    button{
+    .nav-links-desktop{
         display: none;
     }
 
@@ -143,3 +143,14 @@ button:hover{
                     color: #222;
                  }
 }
+
+        .nav-links-desktop {
+            text-align: center;
+            padding: .5rem;
+            border-radius: 4px;
+            background: #425F57;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }

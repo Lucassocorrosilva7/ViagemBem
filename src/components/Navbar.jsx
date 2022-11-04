@@ -29,7 +29,7 @@ const  Navbar = () => {
               </li>
             );
           })} 
-          <button>Login</button>
+          <Link className="nav-links-desktop" to="/signup">Login</Link>
         </ul>
       </nav>
     );
