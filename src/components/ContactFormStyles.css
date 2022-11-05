@@ -39,3 +39,7 @@
             width: 90%;
         }
 }
+
+.login .hide{
+    display: none;
+}

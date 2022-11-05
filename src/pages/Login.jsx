@@ -6,7 +6,7 @@ import ContactForm from "../components/ContactForm";
 
 const Login = () => {
   return (
-    <>
+    <div className="login">
        <Navbar />
       <Hero
         cName="hero-mid"
@@ -17,10 +17,11 @@ const Login = () => {
       <ContactForm
         heading="Olá! Para continuar, digite o seu telefone, e-mail ou usuário"
         btn="Entrar"
-
+        class="hide"  
+        email="Telefone, e-mail ou usuário"
       />
       <Footer/>
-    </>
+    </div>
   )
 }
 
